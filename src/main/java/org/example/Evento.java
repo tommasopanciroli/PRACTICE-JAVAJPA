@@ -31,7 +31,7 @@ public class Evento {
     private List<Partecipazione> partecipazioni;
 
     @ManyToOne
-    @JoinColumn(name = "location_id", nullable = false)
+    @JoinColumn(name = "location_id", nullable = true)
     private Location location;
 
     public Evento() {

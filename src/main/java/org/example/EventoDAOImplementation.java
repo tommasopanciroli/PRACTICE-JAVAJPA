@@ -1,16 +1,15 @@
-package org.example.dao;
+package org.example;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityTransaction;
-import org.example.Evento;
 
 import java.util.List;
 
-public class EventoDAO {
+public class EventoDAOImplementation {
 
     private EntityManager entityManager;
 
-    public EventoDAO(EntityManager entityManager) {
+    public EventoDAOImplementation(EntityManager entityManager) {
         this.entityManager = entityManager;
     }
 
