@@ -11,7 +11,7 @@
             <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/gestioneeventi"/>
             <!--user e password -->
             <property name="javax.persistence.jdbc.user" value="postgres" />
-            <property name="javax.persistence.jdbc.password" value="$Bisco6603052010$" />
+            <property name="javax.persistence.jdbc.password" value="********" />
             <!-- dialetto (vocaboli) -->
             <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />
             <!-- Creazione automatica delle tabelle -->
